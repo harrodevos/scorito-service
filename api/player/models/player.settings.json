@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Player"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "PlayerId": {
+      "type": "integer"
+    }
+  },
+  "connection": "default",
+  "collectionName": "players"
+}
