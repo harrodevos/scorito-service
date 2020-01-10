@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Points": {
+      "type": "integer"
+    },
+    "Prices": {
+      "type": "decimal"
+    },
+    "players": {
+      "collection": "player",
+      "via": "team"
+    },
+    "DateTimeCreated": {
+      "type": "datetime"
+    }
+  },
+  "connection": "default",
+  "collectionName": "teams"
+}
