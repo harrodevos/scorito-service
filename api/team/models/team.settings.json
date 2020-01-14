@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "teams",
   "info": {
     "name": "Team"
   },
@@ -16,14 +18,8 @@
     "Prices": {
       "type": "decimal"
     },
-    "players": {
-      "collection": "player",
-      "via": "team"
-    },
-    "DateTimeCreated": {
-      "type": "datetime"
+    "Players": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "teams"
+  }
 }
